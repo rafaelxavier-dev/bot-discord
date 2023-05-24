@@ -1,0 +1,16 @@
+4Bot XAVIER SHOP logado com sucesso em 0 servidores!
+ Database conectada com sucesso!
+LNode "localhost" encountered an error: connect ECONNREFUSED 127.0.0.1:2333.
+LNode "localhost" encountered an error: connect ECONNREFUSED 127.0.0.1:2333.
+LNode "localhost" encountered an error: connect ECONNREFUSED 127.0.0.1:2333.
+8/home/node/node_modules/discord.js/src/util/Util.js:525
+H    else if (Number.isNaN(color)) throw new TypeError('COLOR_CONVERT');
+*                                        ^
+
+@TypeError [COLOR_CONVERT]: Unable to convert color to a number.
+Z    at Function.resolveColor (/home/node/node_modules/discord.js/src/util/Util.js:525:41)
+h    at MessageEmbed.setColor (/home/node/node_modules/discord.js/src/structures/MessageEmbed.js:413:23)
+Q    at module.exports.run (/home/node/src/commands/moderacao/pagamento.js:42:14)
+L    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+"  [Symbol(code)]: 'COLOR_CONVERT'
+}
